@@ -1,0 +1,140 @@
+main {
+    margin-top: 15%;
+}
+
+.cordonav {
+    background-color: rgba(7, 18, 38, 1);
+}
+
+.botaonav {
+    background-color: aliceblue;
+}
+
+.cartao1 {
+    background-image: url(img/pngtree-abstract-blue-technology-business-or-science-background-picture-image_1250334.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.cartao2 {
+    background-image: url(img/imagebg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: black;
+}
+
+body {
+    background-color: rgb(0, 13, 37);
+    color: aliceblue;
+    margin-bottom: 10%;
+}
+
+.imageminicial {
+    border: 5px solid rgba(0, 0, 255, 0.452);
+    border-radius: 20px;
+    opacity: 0.8;
+    /* filter: blur(2px); */
+    filter: hue-rotate(15deg);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 10px;
+}
+
+.banner h5 {
+    color: rgb(59, 236, 177);
+}
+
+.banner p {
+    color: rgb(152, 255, 255);
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(img/istockphoto-1389238948-612x612.jpg);
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+    opacity: 0.2;
+    filter: blur(2px);
+}
+
+.botao2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(9, 165, 255);
+}
+
+.botao2:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(121, 206, 255);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 10px #fff;
+}
+
+.botao1 {
+    background: rgb(19,9,199);
+    background: linear-gradient(90deg, rgba(19,9,199,1) 9%, rgba(1,1,60,1) 68%);
+    color: #fff;
+    border-right: black;
+}
+
+.botao1:hover {
+    background: rgb(19,9,199);
+    background: linear-gradient(90deg, rgba(19,9,199,1) 9%, rgba(1,1,60,1) 68%);
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 10px #fff;
+}
+
+.sessao2 {
+    margin-top: 10rem;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.containercarousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.containercarousel p {
+    background-color: #00000092;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000000;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+#myCarousel {
+    box-shadow: 0 0 20px #fff;
+}

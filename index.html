@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid cordonav">
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="50" height="50" alt=""></a>
+        <button class="navbar-toggler botaonav" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 cordali">
+            <li class="nav-item">
+              <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled link-light" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container mt-5">
+        <div class="row mt-5">
+          <div class="col-lg-6 mt-5">
+            <h1>Cursos</h1>
+            <h1>de Tecnologia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolor natus blanditiis, dignissimos
+              accusantium, perspiciatis repellendus voluptate quibusdam veritatis reprehenderit sed eos nihil
+              exercitationem consectetur officiis voluptatibus soluta voluptatum hic?</p>
+            <button class="btn mt-3 botao1" style="width: 50%;">Ver Planos</button>
+          </div>
+          <div class="col-lg-6 mt-5 d-none d-lg-block">
+            <img src="img/tecnologia-na-gestao-das-empresas.jpg" class="img-fluid imageminicial" alt="">
+          </div>
+        </div>
+        <div class="row mt-5 gap-5">
+          <div class="col-lg mt-5 banner d-block p-5">
+            <h5>Dev Full Stack</h5>
+              <p class="mt-5">"Desenvolvedores Full Stack são especialistas em todas as etapas do desenvolvimento de aplicativos, trabalhando tanto no front-end quanto no back-end. Eles são versáteis e dominam diversas linguagens de programação, frameworks e tecnologias necessárias para criar soluções completas e funcionais. Com habilidades que abrangem desde a criação de interfaces de usuário atraentes até a implementação de robustas lógicas de servidor, os desenvolvedores Full Stack desempenham um papel fundamental na construção de aplicações web modernas e eficientes."</p>
+              <button class="btn mt-5 botao2" style="width: 50%;">Ver Planos</button>
+          </div>
+          <div class="col-lg mt-5 banner d-block p-5">
+            <h5>Data Science</h5>
+              <p class="mt-5">"Data Science é a disciplina que extrai insights e conhecimentos valiosos a partir de conjuntos de dados complexos. Usando técnicas estatísticas, matemáticas e de programação, os cientistas de dados analisam grandes volumes de informações para descobrir padrões, tendências e correlações. Essas descobertas são fundamentais para tomar decisões informadas e desenvolver soluções inovadoras em diversas áreas."</p>
+              <button class="btn mt-5 botao2" style="width: 50%;">Ver Planos</button>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="container mt-5 mb-5">
+          <h2>Em Qual Área</h2>
+          <h2>Você Quer Se Aprofundar?</h2>
+        </div>
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="overlay-image"  style="background-image: url(img/jogos.webp);"></div>
+              <div class="container containercarousel">
+                <h1>Desenvolvedor de Jogos</h1>
+                <p>Desenvolver jogos é uma jornada criativa que combina arte, design e tecnologia para criar experiências interativas únicas. Os desenvolvedores trabalham em equipes multidisciplinares, colaborando com artistas, designers de jogos e profissionais de áudio para criar mundos virtuais vibrantes e envolventes. Cada jogo é uma oportunidade de contar histórias cativantes, explorar conceitos criativos e desafiar os jogadores com quebra-cabeças intrigantes e mecânicas inovadoras.</p>
+                <a href="#" class="btn btn-lg btn-primary">Clique Aqui</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image: url(img/criacao-de-sites.png);"></div>
+              <div class="container containercarousel">
+                <h1>Criação de Websites</h1>
+                <p>Desenvolver websites envolve uma fusão de habilidades de design e codificação para criar páginas web visualmente atraentes e funcionalmente eficazes. Usando linguagens como HTML, CSS e JavaScript, os criadores constroem layouts responsivos que se adaptam a diferentes dispositivos e oferecem uma experiência de usuário intuitiva e agradável. Cada site é uma oportunidade de expressar criatividade, comunicar mensagens de forma eficaz e fornecer uma presença digital marcante.</p>
+                <a href="#" class="btn btn-lg btn-primary">Clique Aqui</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image: url(img/editor-de-img.webp);"></div>
+              <div class="container containercarousel">
+                <h1>Edição de Imagens e Vídeos</h1>
+                <p>A edição de imagem e vídeo envolve ajustes como correção de cores, recorte e montagem para criar conteúdo visualmente atraente. Softwares como Photoshop e Premiere Pro são comumente usados para essas tarefas, permitindo aprimorar imagens e criar vídeos envolventes com efeitos especiais e trilha sonora. Essa habilidade é valorizada em diversas áreas, desde marketing até entretenimento digital.</p>
+                <a href="#" class="btn btn-lg btn-primary">Clique Aqui</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    
+    
+  </body> 
+</html>
